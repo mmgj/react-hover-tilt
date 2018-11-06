@@ -1,13 +1,23 @@
-# @mmgj/<component-name>
-> Additional information or tag line
+# @mmgj/react-hover-tilt
+> Wrapper component for applying a tilty hover effect
+Based on [react-tilt](https://github.com/jonathandion/react-tilt) by [@jonathandion](https://github.com/jonathandion/).
 
-A brief description of your project, what it is used for.
+![Effect Preview](./examples/src/assets/tilt_preview.gif)
 
-## Installing / Getting started
-
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
+## Usage
 
 ```shell
-commands here
+yarn add @mmgj/react-hover-tilt
+```
+
+```js
+import Tilt from '@mmgj/react-hover-tilt';
+
+// ...
+
+<Tilt>
+  <div style={{ height: 200, width: 150, padding: 15, background: 'tomato' }}>
+    I am a div wrapped with a &lt;Tilt /&gt;
+  </div>
+</Tilt>
 ```

@@ -47,10 +47,10 @@
   "license": "MIT",
   "keywords": [],
   "author": "Martin Jacobsen",
-  "homepage": "",
+  "homepage": "https://github.com/mmgj/react-hover-tilt",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mmgj/react-hover-tilt"
   },
   "directories": {
     "example": "examples"
